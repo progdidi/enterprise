@@ -1,12 +1,26 @@
 .footer {
-}
-.footer__inner {
-}
-.footer-menu {
-}
-.footer-menu__list {
-}
-.footer-menu__item {
-}
-.footer-menu__link {
+    padding: 40px 0;
+    .footer__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .footer-menu {
+            padding: 10px 0;
+            &__list {
+                display: flex;
+                align-items: center;
+                gap: 40px;
+                font-weight: 500;
+                font-size: 20px;
+            }
+        }
+        .footer-menu__list {
+
+        }
+        .footer-menu__item {
+        }
+        .footer-menu__link {
+        }
+    }
+    
 }

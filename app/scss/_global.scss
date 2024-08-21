@@ -18,12 +18,19 @@ body {
     letter-spacing: -0.02em;
 }
 
+
+
 a{
     text-decoration: none;
     color: inherit;
+    &.active {
+        font-weight: 700;
+        color: var(--green-color);
+    }
 }
 
 button{
+    border: none;
     cursor: pointer;
 }
 

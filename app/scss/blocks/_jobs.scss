@@ -1,23 +1,74 @@
 .jobs {
-    padding: 80px 0;
-}
-.jobs__title {
-}
-.jobs__text {
-}
-.jobs__items {
-}
-.jobs__item {
-}
-.jobs__item-title {
-}
-.jobs__item-descr {
-}
-.jobs__item-detail {
-}
-.jobs__item-stake {
-}
-.jobs__item-deadline {
-}
-.jobs__link {
+    padding-top: 80px;
+    padding-bottom: 44px;
+    &__title {
+        margin-bottom: 24px;
+    }
+    &__text {
+        margin-bottom: 48px;
+    }
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        margin-bottom: 48px;
+        .jobs__item {
+            width: 100%;
+            box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+            background-color: var(--white-color);
+            border-radius: 16px;
+            padding: 24px;
+            height: fit-content;
+            &-title {
+                margin-bottom: 16px;
+                font-family: var(--font-family);
+                font-weight: 700;
+                line-height: 133%;
+            }
+            &-descr {
+                margin-bottom: 24px;
+                font-family: var(--font-family);
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 150%;
+            }
+            &-detail {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .jobs__item-stake {
+                    border-radius: 40px;
+                    background-color: var(--green-color);
+                    color: var(--white-color);
+                    padding: 4px 8px;
+                    font-family: var(--font-family);
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 150%;
+                }
+                .jobs__item-deadline {
+                    font-family: var(--font-family);
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 150%;
+                    text-align: right;
+                }
+            }
+            
+        }
+        
+    }
+    
+    &__link {
+        display: block;
+        width: 136px;
+        margin: 0 auto;
+        border-radius: 8px;
+        color: var(--white-color);
+        background-color: var(--black-color);
+        text-align: center;
+        font-weight: 700;
+        line-height: 133%;
+        padding: 20px 0;
+    }
 }

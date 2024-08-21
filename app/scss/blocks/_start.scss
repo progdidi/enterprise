@@ -1,16 +1,30 @@
 .start {
-}
-.start__inner {
-}
-.start__info {
-}
-.start__info-title {
-}
-.start__info-text {
-}
-.start__info-btn {
-}
-.start__media {
-}
-.start__media-img {
+    background-image: url('../../images/start/bg.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 116px;
+    padding-bottom: 80px;
+    .start__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .start__info {
+            max-width: 644px;
+            &-title {
+                margin-bottom: 24px;
+            }
+            &-text {
+                margin-bottom: 40px;
+            }
+            &-btn {
+                width: 219px;
+            }
+        }
+        
+        .start__media {
+        }
+        .start__media-img {
+        }
+    }
+    
 }
