@@ -9,11 +9,13 @@
 }
 
 body {
+    background-color: var(--light-gold-color);
     font-size: 18px;
     line-height: 144%;
-    font-family: var(--font-family);
     font-weight: 400;
     color: var(--black-color);
+    font-family: var(--second-family);
+    letter-spacing: -0.02em;
 }
 
 a{
@@ -37,4 +39,14 @@ button{
     font-size: 48px;
     line-height: 133%;
     color: var(--black-color);
+}
+
+.green-btn {
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    color: var(--white-color);
+    border-radius: 8px;
+    background-color: var(--green-color);
 }

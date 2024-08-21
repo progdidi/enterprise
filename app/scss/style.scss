@@ -1,4 +1,40 @@
+@font-face {
+    font-family: "Novel Mono Pro";
+    src:
+      url("../fonts/novel-mono-pro-regular.otf") format("otf")
+}
+
+@font-face {
+    font-family: "Bely Display";
+    src:
+      url("../fonts/BelyDisplay.ttf") format("ttf")
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    font-weight: bold;
+    src:
+      url("../fonts/Fontspring-DEMO-proximanova-bold.otf") format("otf")
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    font-weight: normal;
+    src:
+      url("../fonts/Fontspring-DEMO-proximanova-regular.otf") format("otf")
+}
+
+
 @import 'global';
 @import 'var';
 @import 'reset';
+
+//blocks
+@import './blocks/header';
+@import './blocks/promo';
+@import './blocks/reimaging';
+@import './blocks/benefits';
+@import './blocks/jobs';
+@import './blocks/start';
+
 
