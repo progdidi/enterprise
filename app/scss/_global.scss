@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Bely Display";
+    src: url('../fonts/BelyDisplay.OTF');
+  }
+
 @import 'var';
 
 *,
@@ -9,12 +14,12 @@
 }
 
 body {
-    background-color: var(--light-gold-color);
+    background-color: var(--background-color);
     font-size: 18px;
     line-height: 144%;
     font-weight: 400;
     color: var(--black-color);
-    font-family: var(--second-family);
+    font-family: var(--font-family);
     letter-spacing: -0.02em;
 }
 
