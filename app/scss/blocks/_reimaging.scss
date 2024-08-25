@@ -39,3 +39,29 @@
     }
     
 }
+
+@media (max-width: 800px) {
+    .reimaging {
+        &__items {
+            display: flex;
+            flex-direction: column;
+            .reimaging__item {
+                width: 70%;
+                margin: 0 auto;
+                padding: 30px 15px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .reimaging {
+        &__items {
+            .reimaging__item {
+                width: 90%;
+                padding: 20px 15px;
+            }
+        }
+    }
+}

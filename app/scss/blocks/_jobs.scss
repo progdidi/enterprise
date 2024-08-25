@@ -72,3 +72,29 @@
         padding: 20px 0;
     }
 }
+
+@media (max-width: 900px) {
+    .jobs {
+        &__items {
+            display: flex;
+            flex-direction: column;
+            .jobs__item {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .jobs {
+        &__items {
+            display: flex;
+            flex-direction: column;
+            .jobs__item {
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
